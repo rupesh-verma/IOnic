@@ -6,4 +6,11 @@
   </ion-toolbar>
 </ion-header>
 
+<ion-content padding [class.newBG]="state">
+    <button ion-button outline (click)="hasPermission()">hasPermission</button>
+    <button ion-button outline (click)="createChannel()">createChannel</button>
+
+    <img src="{{ screen }}" *ngIf="state">
+</ion-content>
+
 <ion-content></ion-content>

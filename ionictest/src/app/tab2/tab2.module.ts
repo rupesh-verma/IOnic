@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab2Page } from './tab2.page';
 //import { Screenshot, ScreenshotOriginal } from '@ionic-native/screenshot';
-import { Push, PushOptions } from '@ionic-native/push/ngx';
+//import { Push, PushOptions } from '@ionic-native/push/ngx';
 
 @NgModule({
     imports: [
@@ -15,7 +15,7 @@ import { Push, PushOptions } from '@ionic-native/push/ngx';
         RouterModule.forChild([{ path: '', component: Tab2Page }]),
     ],
     providers: [
-        Push,
+       // Push,
         
     ],
     declarations: [Tab2Page]
